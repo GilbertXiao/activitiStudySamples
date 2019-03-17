@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/../Activiti" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-bpmn-converter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-bpmn-layout" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-bpmn-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-dmn-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-dmn-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-engine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-form-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-form-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-image-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-process-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-custom-mybatis-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-rest-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-rest-api-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-rest-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Activiti/modules/activiti5-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bpmn20" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coreapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dbentity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot" charset="UTF-8" />
+  </component>
+</project>

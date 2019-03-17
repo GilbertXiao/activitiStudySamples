@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/activiti6-sample.iml" filepath="$PROJECT_DIR$/activiti6-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bpmn20/bpmn20.iml" filepath="$PROJECT_DIR$/bpmn20/bpmn20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coreapi/coreapi.iml" filepath="$PROJECT_DIR$/coreapi/coreapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbentity/dbentity.iml" filepath="$PROJECT_DIR$/dbentity/dbentity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
+    </modules>
+  </component>
+</project>

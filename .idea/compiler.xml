@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bpmn20" />
+        <module name="config" />
+        <module name="coreapi" />
+        <module name="dbentity" />
+        <module name="springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activiti-bpmn-converter" target="1.7" />
+      <module name="activiti-bpmn-layout" target="1.7" />
+      <module name="activiti-bpmn-model" target="1.7" />
+      <module name="activiti-dmn-api" target="1.7" />
+      <module name="activiti-dmn-model" target="1.7" />
+      <module name="activiti-engine" target="1.7" />
+      <module name="activiti-form-api" target="1.7" />
+      <module name="activiti-form-model" target="1.7" />
+      <module name="activiti-image-generator" target="1.7" />
+      <module name="activiti-process-validation" target="1.7" />
+      <module name="activiti-root" target="1.7" />
+      <module name="activiti-spring-boot" target="1.7" />
+      <module name="activiti-spring-boot-samples" target="1.7" />
+      <module name="activiti-spring-boot-starter-actuator" target="1.7" />
+      <module name="activiti-spring-boot-starter-basic" target="1.7" />
+      <module name="activiti-spring-boot-starter-integration" target="1.7" />
+      <module name="activiti-spring-boot-starter-jpa" target="1.7" />
+      <module name="activiti-spring-boot-starter-rest-api" target="1.7" />
+      <module name="activiti-spring-boot-starter-security" target="1.7" />
+      <module name="activiti-spring-boot-starters" target="1.7" />
+      <module name="activiti5-spring" target="1.7" />
+      <module name="activiti6-sample" target="1.8" />
+      <module name="bpmn20" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="coreapi" target="1.8" />
+      <module name="dbentity" target="1.8" />
+      <module name="spring-boot-sample-actuator" target="1.7" />
+      <module name="spring-boot-sample-basic" target="1.7" />
+      <module name="spring-boot-sample-custom-mybatis-mapper" target="1.7" />
+      <module name="spring-boot-sample-integration" target="1.7" />
+      <module name="spring-boot-sample-jpa" target="1.7" />
+      <module name="spring-boot-sample-rest-api" target="1.7" />
+      <module name="spring-boot-sample-rest-api-security" target="1.7" />
+      <module name="spring-boot-sample-security" target="1.7" />
+      <module name="springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bpmn20" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="coreapi" options="-parameters" />
+      <module name="dbentity" options="-parameters" />
+      <module name="springboot" options="-parameters" />
+    </option>
+  </component>
+</project>

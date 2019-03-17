@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
+  <!--  <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/activiti6unit?characterEncoding=UTF-8&amp;useSSL=false" />
+    <property name="jdbcDriver" value="com.mysql.jdbc.Driver" />
+    <property name="jdbcUsername" value="gilxyj" />
+    <property name="jdbcPassword" value="sdfm1234" />-->
+    <property name="databaseSchemaUpdate" value="create-drop"/>
+    <property name="dataSource" ref="dataSource"/>
+  </bean>
+
+  <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+    <!-- 基本属性 url、user、password -->
+    <property name="url" value="jdbc:mysql://127.0.0.1:3306/activiti6unit?characterEncoding=UTF-8&amp;useSSL=false" />
+    <property name="username" value="gilxyj" />
+    <property name="password" value="sdfm1234" />
+    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="initialSize" value="1"/>
+    <property name="maxActive" value="10"/>
+    <property name="filters" value="stat,slf4j" />
+   <!-- &lt;!&ndash; 配置初始化大小、最小、最大 &ndash;&gt;
+    <property name="initialSize" value="${druid.initialSize}"/>
+    <property name="minIdle" value="${druid.minIdle}"/>
+    <property name="maxActive" value="${druid.maxActive}"/>
+    &lt;!&ndash; 配置获取连接等待超时的时间 &ndash;&gt;
+    <property name="maxWait" value="${druid.maxWait}"/>
+    &lt;!&ndash; 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 &ndash;&gt;
+    <property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}" />
+    &lt;!&ndash; 配置一个连接在池中最小生存的时间，单位是毫秒 &ndash;&gt;
+    <property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}" />
+    <property name="validationQuery" value="${druid.validationQuery}" />
+    <property name="testWhileIdle" value="${druid.testWhileIdle}" />
+    <property name="testOnBorrow" value="${druid.testOnBorrow}" />
+    <property name="testOnReturn" value="${druid.testOnReturn}" />
+    &lt;!&ndash; 打开PSCache，并且指定每个连接上PSCache的大小  如果用Oracle，则把poolPreparedStatements配置为true，mysql可以配置为false。&ndash;&gt;
+    <property name="poolPreparedStatements" value="${druid.poolPreparedStatements}" />
+    <property name="maxPoolPreparedStatementPerConnectionSize" value="${druid.maxPoolPreparedStatementPerConnectionSize}" />
+    &lt;!&ndash; 配置监控统计拦截的filters &ndash;&gt;
+    <property name="filters" value="${druid.filters}" />-->
+  </bean>
+
+</beans>

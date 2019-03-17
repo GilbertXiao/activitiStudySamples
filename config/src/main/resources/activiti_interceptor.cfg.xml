@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneInMemProcessEngineConfiguration">
+    <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/activiti6unit?characterEncoding=UTF-8&amp;useSSL=false" />
+    <property name="jdbcDriver" value="com.mysql.jdbc.Driver" />
+    <property name="jdbcUsername" value="gilxyj" />
+    <property name="jdbcPassword" value="sdfm1234" />
+    <property name="databaseSchemaUpdate" value="true"/>
+    <property name="commandInvoker" ref="commandInvoker"/>
+    <property name="enableDatabaseEventLogging" value="false"/>
+    <property name="customPreCommandInterceptors">
+      <list>
+        <bean class="com.imooc.activiti.interceptor.DurationCommandInterceptor"></bean>
+      </list>
+    </property>
+    <!--<property name="eventListeners">
+      <list>
+        <bean class="com.imooc.activiti.event.ProcessEventListener"></bean>
+      </list>
+    </property>-->
+    <!--<property name="typedEventListeners">
+      <map>
+        <entry key="PROCESS_STARTED">
+          <list>
+            <bean class="com.imooc.activiti.event.ProcessEventListener"></bean>
+          </list>
+        </entry>
+      </map>
+    </property>-->
+  </bean>
+  <bean id="commandInvoker" class="com.imooc.activiti.interceptor.MDCCommandInvoker"></bean>
+
+</beans>

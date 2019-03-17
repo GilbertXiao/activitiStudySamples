@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dbentity/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-bpmn-converter/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-bpmn-layout/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-bpmn-model/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-dmn-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-dmn-model/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-engine/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-form-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-form-model/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-image-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-process-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-custom-mybatis-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-rest-api-security/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-rest-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-samples/spring-boot-sample-security/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-rest-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/activiti-spring-boot-starter-security/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/spring-boot-starters/pom.xml" />
+        <option value="$PROJECT_DIR$/../Activiti/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>
