@@ -1,0 +1,9 @@
+com\imooc\activiti\bpmn20\ScriptTaskTest$1.class
+com\imooc\activiti\example\MyTaskDelegate.class
+com\imooc\activiti\MyUnitTest.class
+com\imooc\activiti\bpmn20\ScriptTaskTest.class
+com\imooc\activiti\example\MyPayDelegate.class
+com\imooc\activiti\bpmn20\SubprocessTest.class
+com\imooc\activiti\bpmn20\GatewayTest.class
+com\imooc\activiti\bpmn20\TimerEventTest.class
+com\imooc\activiti\bpmn20\UserTaskTest.class

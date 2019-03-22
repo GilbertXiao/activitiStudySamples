@@ -1,0 +1,10 @@
+com\imooc\activiti\MyUnitTest.class
+com\imooc\activiti\dbentity\DbIdentityTest.class
+com\imooc\activiti\dbentity\DbConfigTest$1.class
+com\imooc\activiti\dbentity\DbGeTest.class
+com\imooc\activiti\dbentity\DbHistrotyTest.class
+com\imooc\activiti\dbentity\DbConfigTest.class
+com\imooc\activiti\dbentity\DbRepositoryTest.class
+com\imooc\activiti\dbentity\DbRepositoryTest$1.class
+com\imooc\activiti\dbentity\DbGeTest$1.class
+com\imooc\activiti\dbentity\DbRuntimeTest.class

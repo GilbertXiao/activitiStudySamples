@@ -6,8 +6,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dbentity/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/../Activiti/pom.xml" />
-        <option value="$PROJECT_DIR$/../Activiti/modules/activiti-spring-boot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

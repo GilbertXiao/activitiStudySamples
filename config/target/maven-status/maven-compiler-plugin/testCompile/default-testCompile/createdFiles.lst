@@ -1,0 +1,10 @@
+com\imooc\activiti\config\ConfigDBTest.class
+com\imooc\activiti\MyUnitTest.class
+com\imooc\activiti\config\ConfigTest.class
+com\imooc\activiti\config\ConfigEventListenerTest.class
+com\imooc\activiti\config\ConfigEventTest.class
+com\imooc\activiti\config\ConfigSpringTest.class
+com\imooc\activiti\config\ConfigHistoryTest.class
+com\imooc\activiti\config\ConfigInterceptorTest.class
+com\imooc\activiti\config\ConfigMDCTest.class
+com\imooc\activiti\config\ConfigJobTest.class

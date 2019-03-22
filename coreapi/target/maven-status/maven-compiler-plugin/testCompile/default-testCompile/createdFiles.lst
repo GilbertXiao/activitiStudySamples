@@ -1,0 +1,11 @@
+com\imooc\activiti\coreapi\ManagementServiceTest.class
+com\imooc\activiti\MyUnitTest.class
+com\imooc\activiti\coreapi\IdentityServiceTest.class
+com\imooc\activiti\mapper\MyCustomMapper.class
+com\imooc\activiti\coreapi\RuntimeServiceTest.class
+com\imooc\activiti\coreapi\FormServiceTest.class
+com\imooc\activiti\coreapi\ManagementServiceTest$1.class
+com\imooc\activiti\coreapi\RepostoryServiceTest.class
+com\imooc\activiti\coreapi\TaskServiceTest.class
+com\imooc\activiti\coreapi\HistoryServiceTest.class
+com\imooc\activiti\coreapi\ManagementServiceTest$2.class
